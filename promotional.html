@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prada</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/promotional.css">
+    <link rel="stylesheet" href="promotional.html">
+    <link rel="stylesheet" href="contact.html">
+    <link rel="stylesheet" href="submit.html">
+</head>
+
+<body> 
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container d-flex align-items-center">
+        <img src="logo.webp" alt="logo" style="width:42px; height:39px;" class="rounded-pill me-2"> 
+        <a class="navbar-brand" href="#">PRADA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="promotional.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navigation -->
+
+ <!-- HOME -->
+    <div class="jumbotron text-center bg-light position-relative">
+        <img src="home.jpeg" alt="bgp of Prada" class="jumboimage">
+        <div class="content position-absolute top-50 start-50 translate-middle">
+            <h1 class="display-4">PRADA</h1>
+            <p class="lead">Luxury fashion brand known worldwide for sophisticated designs across clothing, accessories, and fragrances.</p>
+            <hr class="my-4">
+            <p>Learn more about us and explore our gallery.</p>
+            <a class="btn btn-primary btn-lg" href="learnmore.html" role="button">Learn More</a>
+        </div>
+    </div>
+     <!-- HOME -->
+
+
+    <!-- ABOUT -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="card-title">ABOUT</h4>
+                <p class="card-text">Prada is one of the most significant and prestigious names in the world of fashion and luxury. Its history and interesting facts are rich and fascinating.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="AU.jpeg" alt="About Us Image" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT -->
+
+    <hr class="my-5">
+
+<!-- GALLERY -->
+<div class="container">
+    <h4 class="text-center ptag">GALLERY</h4>
+    <p class="text-center underline mb-4">DISCOVER THE NEW DESIGNS</p>
+    <div class="row">
+        <div id="fragrance" class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <img src="card1.jpeg" alt="Fragrances" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="frag">Fragrances</h3>
+                    <p>Prada fragrances are designed to be versatile, suitable for both daytime and evening wear, and they often leave a lasting impression with their unique and memorable scent profiles.</p>
+                </div>
+            </div>
+        </div>
+        <div id="leather-clothing" class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <img src="card2.jpeg" alt="Leather Clothing" class="card-img-top">
+                <div class="card-body">
+                    <h3>Leather Clothing</h3>
+                    <p>Prada's leather clothing collection embodies luxury and contemporary style. Crafted from high-quality leather, each piece showcases meticulous attention to detail and expert craftsmanship.</p>
+                </div>
+            </div>
+        </div>
+        <div id="bags" class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <img src="card3.jpeg" alt="Bags" class="card-img-top">
+                <div class="card-body">
+                    <h3>Bags</h3>
+                    <p>Prada bags are iconic symbols of luxury and style, renowned for their impeccable craftsmanship and timeless designs.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add more gallery items with IDs -->
+    </div>
+</div>
+<!-- GALLERY -->
+
+    
+
+    <!-- PAGINATION -->
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" href="#fragrance">1</a></li>
+        <li class="page-item"><a class="page-link" href="#leather-clothing">2</a></li>
+        <li class="page-item"><a class="page-link" href="#bags">3</a></li>
+        <!-- Add more items for other gallery sections -->
+    </ul>
+</nav>
+<!-- PAGINATION -->
+
+
+
+    <!-- CONTACT US -->    
+    <div class="container my-5">
+        <section class="contact">
+            <h4>Contact Us</h4>
+            <form action="#" method="POST" class="contact-form p-4 bg-light rounded">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address:</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message:</label>
+                    <textarea id="message" name="message" class="form-control" rows="4" placeholder="Enter your message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" href="submit.html">Submit</button>
+            </form>
+        </section>
+    </div>
+    <!-- CONTACT US --> 
+
+
+    <!-- Footer -->
+<footer class="bg-dark text-white pt-4">
+    <div class="container">
+        <div class="row">
+            <!-- About Section -->
+            <div class="col-md-4">
+                <h5>About PRADA</h5>
+                <p>Prada is a luxury fashion brand known for its sophisticated designs across clothing, accessories, and fragrances.</p>
+            </div>
+            <!-- Quick Links Section -->
+            <div class="col-md-4">
+                <h5>    </h5>
+                
+            </div>
+            <!-- Contact Info Section -->
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Fashion St, Milan, Italy</li>
+                    <li><i class="fas fa-phone"></i> +63 9123456789</li>
+                    <li><i class="fas fa-envelope"></i> prada@gmail.com/li>
+                </ul>
+            </div>
+        </div>
+        <hr class="bg-white">
+        <div class="row">
+            <div class="col-md-6">
+                <p>&copy; 2024 PRADA. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="pagination.js"></script>
+<script src="pagination.js"></script>
+<script src="navbar.js"></script>
+
+
+</body>
+</html>

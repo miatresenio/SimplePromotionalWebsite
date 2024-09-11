@@ -1,0 +1,46 @@
+.container img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title, .ptag, .underline {
+    font-family: 'Arial Black', sans-serif;
+    color: black;
+}
+
+.p-4 {
+    padding: 1.5rem !important;
+}
+
+/* Hover effect for gallery cards */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Optional: change the image opacity on hover */
+.card-img-top {
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    opacity: 0.8;
+}
+
+/* Optional: change the title color on hover */
+.card-title {
+    transition: color 0.3s ease;
+}
+
+.card:hover .card-title {
+    color: #d4af37; /* Gold color */
+}

@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+.jumbotron {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.jumboimage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.navbar-brand, .nav-link {
+    font-family: 'CustomFont', serif; /* Replace with actual font */
+    font-weight: 600;
+}
+
+/* Default navbar style */
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+/* Transparent or lower opacity style */
+.navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Change 0.5 to desired opacity */
+}
+
+
+
+.nav-link {
+        color: white; /* Gold color */
+}
+
+.nav-link:hover {
+    color: #d4af37; /* Gold color */
+}
+
+.content {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+
+.display-4 {
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+    color: black;
+}
+
+.lead {
+    font-weight: bold;
+}
+
+.container img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title, .ptag, .underline {
+    font-family: 'Arial Black', sans-serif;
+    color: black;
+}
+
+.p-4 {
+    padding: 1.5rem !important;
+}
+
+.contact-form {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.pagination {
+    margin-top: 40px;
+}
+
+.pagination .page-item .page-link {
+    color: #000; /* Default color */
+    border: 1px solid #ddd;
+    margin: 0 5px;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+hr.my-5 {
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        height: 50vh;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .card-body {
+        font-size: 14px;
+    }
+
+    .contact-form {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+
+
+
+
+
+
+
+    /* Footer Styling */
+footer {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #343a40; /* Dark background for footer */
+    color: #fff;
+}
+
+footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p, footer li {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+footer ul li a:hover {
+    color: #007bff;
+}
+
+footer .row hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer .social-icons a {
+    font-size: 18px;
+    margin-right: 15px;
+    color: #fff;
+}
+
+footer .social-icons a:hover {
+    color: #d4af37;
+}
+
+/* Responsive Footer Adjustments */
+@media (max-width: 768px) {
+    footer .text-md-end {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    footer .social-icons {
+        justify-content: center;
+    }
+}
+
+}
